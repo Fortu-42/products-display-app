@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+.grid-container{
+    height: 10vh;
+    margin: 0;
+    width: 100vw;
+    display: flex;
+}
+
+.grid-container .item{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    padding: 22px;
+    text-align: center;
+    background-color:#333;
+}
+
+.grid-container .item:hover{
+    cursor: pointer;
+    background-color: rgb(209, 0, 115);
+    text-transform: uppercase;
+    
+}

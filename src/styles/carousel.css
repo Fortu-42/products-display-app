@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+.citem{
+    height: 90vh;
+    margin : 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.item1{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/img-1.jpg") no-repeat center;
+    background-size: cover; 
+}
+
+h1.headline{
+    text-align: center;
+    margin:-35px 0 5px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+img.svg{
+    height: 20vh;
+    margin: 5px;
+}
+
+p.lead{
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+button.callToAction{
+    margin: 10px;
+    padding: 15px 20px;
+    background-color: rgb(209, 0, 115);
+    color: white;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    cursor: pointer;
+    box-shadow: 5px 7px #333;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+button.callToAction:hover{
+    background-color: #333;
+    box-shadow: 5px 7px rgb(209, 0, 115);
+
+}

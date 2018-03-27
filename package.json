@@ -1,0 +1,21 @@
+{
+  "name": "inno-simple",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "animate.css": "^3.6.1",
+    "react": "^16.2.0",
+    "react-animate-on-scroll": "^2.1.2",
+    "react-dom": "^16.2.0",
+    "react-icon-base": "^2.1.2",
+    "react-icons": "^2.2.7",
+    "react-owl-carousel": "^2.2.0",
+    "react-scripts": "1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

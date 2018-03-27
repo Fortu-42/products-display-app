@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
+.aContainer{
+   
+   display: grid;
+   grid-template-columns: 50% 50%;
+   justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+img.aimg{
+    width: 100%;
+    height: 100vh;
+}
+
+div.aitem{
+    text-align: center;
+    color: #333;
+}
+
+h3.atitle{
+    font-size: 45px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+p.alead{
+    padding: 60px;
+    font-size: 25px;
+}
