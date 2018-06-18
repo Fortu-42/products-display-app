@@ -1,60 +1,137 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
-.citem{
-    height: 90vh;
-    margin : 0;
+
+.item1{
+    background:linear-gradient(to right, rgba(217,167,199, 0.2), rgba(255,252,220, 0.2))  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */,  url("../img/img-1.jpg") no-repeat center;
+    background-size: cover; 
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.item1{
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/img-1.jpg") no-repeat center;
-    background-size: cover; 
-}
+
 
 h1.headline{
     text-align: center;
-    margin:-35px 0 5px;
-    font-size: 70px;
-    font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     text-transform: uppercase;
 }
 
-img.svg{
-    height: 20vh;
-    margin: 5px;
-}
 
 p.lead{
     text-align: center;
-    margin: 10px;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Fira Sans', sans-serif;
-    color: #fff;
+    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
+    margin:0;
 }
 
 button.callToAction{
-    margin: 10px;
-    padding: 15px 20px;
-    background-color: rgb(209, 0, 115);
-    color: white;
-    font-size: 22px;
+    margin: 5vh auto;
+    padding: 10px 20px;
+    background-color: rgb(235, 235, 235);
+    color: #333;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    border: none;
+    border: 1px solid #333;
     cursor: pointer;
     box-shadow: 5px 7px #333;
     font-weight: 500;
     text-transform: capitalize;
+    border-radius: 20px;
+    outline: none;
 }
 
 button.callToAction:hover{
     background-color: #333;
-    box-shadow: 5px 7px rgb(209, 0, 115);
-
+    box-shadow: 5px 7px rgb(235,235,235);
+    color: white;
+    border: 1px solid rgb(235,235,235);
 }
+
+.item2{
+    /* background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/img-1.jpg") no-repeat center;
+    background-size: cover; */
+    display: flex;   
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gradient2{
+    background: #fe8c00; /* fallback for old browsers */
+    background: linear-gradient(to left, rgba(254,140,0,0.5), rgba(248,54,0,0.5)); 
+    background-size: cover;
+}
+.info{
+    height: 100%;
+    flex-grow: 1; 
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.letters{
+    color: #fff;
+    font-size: 5vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.img2{
+    height: 100%;
+    width: 100%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.sample{
+    background: linear-gradient(to left,rgba(254,140,0,0.2), rgba(248,54,0,0.2), transparent), url("../img/img-3.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.sample1{
+    background: linear-gradient(to left,rgba(254,140,0,0.2), rgba(248,54,0,0.2), transparent), url("../img/img-4.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+.sample2{
+    background: linear-gradient(to left,rgba(254,140,0,0.2), rgba(248,54,0,0.2), transparent), url("../img/img-5.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.img3{
+    height: 100%;
+    width: 100%;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(192,108,132, 0.2),rgba(108,91,123,0.2), rgba(53,92,125,0.2)), url("../img/img-6.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.gradient3{
+    background: #355C7D;  /* fallback for old browsers */
+    background: linear-gradient(to right, rgba(192,108,132, 0.5),rgba(108,91,123,0.5), rgba(53,92,125,0.5)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+

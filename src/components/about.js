@@ -7,7 +7,7 @@ class About extends Component{
         return(
             <section className="aContainer">
                 <div className="aitem">
-                    <img className="aimg" src={about} alt=""/>
+                    <img className="aimg" src={about} alt="aboutUs"/>
                 </div>
                 <div className="aitem">
                     <h3 className="atitle">About</h3>

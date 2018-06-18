@@ -14,7 +14,7 @@ class Services extends Component{
                     <div className="sitem">
 
                     <ScrollAnimation animateIn='tada'>
-                        <FontAwesome.FaBullhorn size={70} color="rgba(209, 0, 115,.5)"/>
+                        <FontAwesome.FaBullhorn size={70} color="rgb(209, 0, 115)"/>
                     </ScrollAnimation>
 
                         <h3>Campañas de Marketing</h3>
@@ -23,7 +23,7 @@ class Services extends Component{
                     <div className="sitem">
 
                     <ScrollAnimation animateIn='tada'>
-                        <FontAwesome.FaTrademark size={70} color=" rgba(209, 0, 115,.5) "/>
+                        <FontAwesome.FaTrademark size={70} color=" rgb(209, 0, 115) "/>
                     </ScrollAnimation>
 
                         <h3>Destaca tu marca personal</h3>
@@ -32,7 +32,7 @@ class Services extends Component{
                     <div className="sitem">
 
                     <ScrollAnimation animateIn='tada'>
-                        <FontAwesome.FaShareAlt size={70} color="rgba(209, 0, 115,.5)"/>
+                        <FontAwesome.FaShareAlt size={70} color="rgb(209, 0, 115)"/>
                     </ScrollAnimation>
 
                         <h3>Aumentamos el tráfico de tus perfiles</h3>
@@ -41,7 +41,7 @@ class Services extends Component{
                     <div className="sitem">
 
                     <ScrollAnimation animateIn='tada'>
-                        <FontAwesome.FaCalendar size={70} color="rgba(209, 0, 115,.5)"/>
+                        <FontAwesome.FaCalendar size={70} color="rgb(209, 0, 115)"/>
                     </ScrollAnimation>
 
                         <h3>Organizamos Eventos Sociales</h3>

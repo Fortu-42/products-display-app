@@ -16,11 +16,11 @@ class Jobs extends Component{
                     items={3} 
                     autoplayTimeout={7000}>
                     <div>
-                    <a><img src="http://via.placeholder.com/350x150"/></a>
+                    <a><img src="http://via.placeholder.com/350x150" alt="job1"/></a>
                     </div>
-                    <div><a><img src="http://via.placeholder.com/350x150"/></a></div>
-                    <div><a><img src="http://via.placeholder.com/350x150"/></a></div>
-                    <div><a><img src="http://via.placeholder.com/350x150"/></a></div>
+                    <div><a><img src="http://via.placeholder.com/350x150" alt="job2"/></a></div>
+                    <div><a><img src="http://via.placeholder.com/350x150" alt="job3"/></a></div>
+                    <div><a><img src="http://via.placeholder.com/350x150" alt="job4"/></a></div>
                 </OwlCarousel>
             </section>
         );
